@@ -73,6 +73,7 @@ const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 143px;
     flex: 1;
     a {
         font-weight: 600;
