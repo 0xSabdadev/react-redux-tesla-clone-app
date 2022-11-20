@@ -2,9 +2,42 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+<p align="center">
+  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="https://github.com/0xSabdadev/react-redux-tesla-clone-app/blob/master/public/images/logo.svg" alt="Vite logo">
+  </a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/vite.svg" alt="npm package"></a>
+  <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatibility"></a>
+</p>
+
+# react-redux-tesla-clone-app
+Build tesla clone app with React.js - Redux - MaterialUI <br/>
+
+<img src='https://github.com/0xSabdadev/react-redux-tesla-clone-app/blob/master/public/lr.png'>
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+```
+git clone https://github.com/0xSabdadev/react-redux-tesla-clone-app.git
+```
+```
+git clone git@github.com:0xSabdadev/react-redux-tesla-clone-app.git
+```
+```
+cd react-redux-tesla-clone-app
+```
+```
+npm install
+```
+```
+npm run dev
+```
+## Available Scripts
 
 ### `npm start`
 
