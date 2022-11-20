@@ -1,18 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Fade} from 'react-awesome-reveal'
 
 const Section = ({title, description, background, leftBtnText, rightBtnText}) => {
     return (
         <Wrap bgImage={background}>
-            <ItemText>
-                <h1>{title}</h1>
-                <p>{description}</p>
-            </ItemText>
+            <Fade direction='up' triggerOnce>
+                <ItemText>
+                    <h1>{title}</h1>
+                    <p>{description}</p>
+                </ItemText>
+            </Fade>
             <Buttons>
-                <ButtonGroup>
-                    <LeftButton>{leftBtnText}</LeftButton>
-                    {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
-                </ButtonGroup>
+                <Fade direction='up' triggerOnce>
+                    <ButtonGroup>
+                        <LeftButton>{leftBtnText}</LeftButton>
+                        {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
+                    </ButtonGroup>
+                </Fade>
                 <DownArrow src='./images/down-arrow.svg' />
             </Buttons>
         </Wrap>

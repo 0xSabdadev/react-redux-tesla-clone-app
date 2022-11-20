@@ -8,9 +8,37 @@
   padding: 0;
 }
 
+html::-webkit-scrollbar {
+  width: 5.5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #0e0219;
+  border-radius: 5.5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #C7C5C7;
+  border-radius: 5.5px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #C7C5C7;
+  border-radius: 5.5px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: #C7C5C7;
+  border-radius: 5.5px;
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 @keyframes animateDown {
